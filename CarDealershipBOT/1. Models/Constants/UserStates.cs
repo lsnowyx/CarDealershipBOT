@@ -1,0 +1,17 @@
+﻿namespace ELD888TGBOT._1._Models.Constants
+{
+    public enum UserStates
+    {
+        AWAITING_COMMAND,
+        WAITING_FOR_EMAIL,
+        WAITING_FOR_PASSWORD,
+        SIGNIN_STARTED,
+        WAITING_FOR_CARSERIALNR,
+        WAITING_FOR_GETALLCARS,
+        WAITING_FOR_CAR_CHOOSING,
+        CREATEACCOUNT_STARTED,
+        WAITING_FOR_EMAIL_CREATE,
+        WAITING_FOR_PASSWORD_CREATE,
+        WAITING_BUYCAR_NOW
+    }
+}
